@@ -1,24 +1,24 @@
 <?php
 
-		# Send messages to an individual recipient
+	# Send messages to an individual recipient
 		
-	    $data = array (
+	$data = array (
             'head' => 'Title of message', 
             'text' => 'Short description of message', 
             'link' => 'Link to site or element (image, video, other) (or empty)', # Appropriate app will be started to view / follow this link
             'icon' => 'Link to icon, which is displayed with message (or empty)',
         );     
 
-		# Comments
-		#
-		# No type field necessary, type is fixed: Private message center (16) 
-		#
-		# No site field, message will be deliverd independent of the location of the recipient
-		#
+	# Comments
+	#
+	# No type field necessary, type is fixed: Private message center (16) 
+	#
+	# No site field, message will be deliverd independent of the location of the recipient
+	#
 		
         $headers = array (
-		    'Authorization: key=app-key',		# Recipient's key inside the app (app screen botton)
-			'Content-Type: application/json'
+		'Authorization: key=app-key',		# Recipient's key inside the app
+		'Content-Type: application/json'
         );
 
         $ch = curl_init();
@@ -32,7 +32,6 @@
 
         curl_exec($ch);
 
-		curl_close($ch);
+	curl_close($ch);
 
 ?>
-
