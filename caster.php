@@ -21,7 +21,7 @@
 	#
 		
         $headers = array (
-            'Authorization: key=app-key',	# Sender's key inside the app (app screen botton)
+            'Authorization: key=app-key',	# Sender's key inside the app
             'Content-Type: application/json'
         );
 
