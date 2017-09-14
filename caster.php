@@ -1,6 +1,6 @@
 <?php
 
-		# Broadcast messages to a region (site) immediately
+	# Broadcast messages to a region (site) immediately
 		
         $data = array (
             'head' => 'Title of message', 
@@ -11,17 +11,17 @@
             'type' => 'See comment'
         );
 		
-		# Comments
-		#
-		# type field is 1 or 2 or 4 or 8 or 16 depending on the category the message belongs to
-		#
-		# a user will only be notified and the message will be displayed, if the user has enabled the filter to receive messages of this category
-		#
-		# broadcast messages require additional approval from the backoffice site, contact me at info@siehog.com
-		#
+	# Comments
+	#
+	# type field is 1 or 2 or 4 or 8 or 16 depending on the category the message belongs to
+	#
+	# a user will only be notified and the message will be displayed, if the user has enabled the filter to receive messages of this category
+	#
+	# broadcast messages require additional approval from the backoffice site, contact me at info@siehog.com
+	#
 		
         $headers = array (
-            'Authorization: key=app-key',		# Sender's key inside the app (app screen botton)
+            'Authorization: key=app-key',	# Sender's key inside the app (app screen botton)
             'Content-Type: application/json'
         );
 
@@ -36,7 +36,6 @@
 
         curl_exec($ch);
 
-		curl_close($ch);
+	curl_close($ch);
  
 ?>
-
