@@ -21,8 +21,8 @@
 	#
 		
         $headers = array (
-		    'Authorization: key=app-key',	# Sender's key inside the app (app screen botton)
-			'Content-Type: application/json'
+		'Authorization: key=app-key',		# Sender's key inside the app
+		'Content-Type: application/json'
         );
 
         $ch = curl_init();
