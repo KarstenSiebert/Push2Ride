@@ -9,7 +9,7 @@
             'icon' => 'Link to icon, which is displayed with message (or empty)',
 	    'from' => 'From identifier (or empty)',
             'site' => 'Address (street, city, or region, or known place), where to push this message',
-            'type' => 'See comment'
+            'type' => 'See comments'
         );
 				
 	# Comments
