@@ -15,7 +15,9 @@
 	
 	# Comments
 	#
-	# A user will only be notified and the message will be displayed, if the user has joined the peer group and enabled the option to receive private messages
+	# A user will only be notified and the message will be displayed, if the user has joined the 'peer' group and enabled the option to receive private messages
+	#
+	# The 'peer' group name hat to be entered in the Ride app of each recipient as the 'Selected groups' parameter. 
 	#
 	# Inside the Ride app several groups can be joined by adding them separated with comma
 	#
