@@ -1,5 +1,7 @@
 <?php
 
+	# Send messages to a list of recipients, who joined a group
+
         $data = array (
 	    'head' => 'Title of message', 
             'text' => 'Short description of message', 
