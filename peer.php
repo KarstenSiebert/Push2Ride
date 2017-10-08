@@ -8,8 +8,8 @@
             'link' => 'Link to site or element (image, video, other) (or empty)', # Appropriate app will be started to view / follow this link
             'icon' => 'Link to icon, which is displayed with message (or empty)',
 	    'shot' => 'Link to image file, which will be displayed with message (or empty)',
-	    'from' => 'From identifier', # A unique identifier of the sender
-            'peer' => 'Distribution group name'
+	    'from' => 'From identifier (or empty)', # A unique identifier of the sender
+            'peer' => 'Distribution group name' # A unique group identifier - 10 bytes without special character
         );
 
 	
@@ -18,6 +18,8 @@
 	# A user will only be notified and the message will be displayed, if the user has joined the peer group and enabled the option to receive private messages
 	#
 	# Inside the Ride app several groups can be joined by adding them separated with comma
+	#
+	# Group transmission requires a server side group definition, contact me for more details at info@siehog.com
 	#
 		
         $headers = array (
