@@ -7,7 +7,9 @@ The provided code samples are based on PHP and allow you to send messages to you
 
 Messages may include just text, text and individual icons, or text, icons and additional images. Depending on the provided content the Ride app will present the received message as text or text with image. Included links can be used to forward the user to other applications or sites.
 
-The samples also include code to send messages with geo-location triggers. Users with Ride installed receive your messages once they enter specific areas. 
+Transmitters can generate subscription channels, send their messages over these channels and ask users to subscribe to their channels. Inside the Ride app users can also search for channels of their interest.
+
+The samples include code to send messages with geo-location triggers. Users with Ride installed receive your messages once they enter specific areas.
 
 A broadcast sample shows how to send local broadcast messages (The latter two solutions require special activation - contact me at info@siehog.com).
 
