@@ -9,7 +9,7 @@
             'icon' => 'Link to icon, which is displayed with message (or empty)',
 	    'shot' => 'Link to image file, which will be displayed with message (or empty)',
             'site' => 'Address (street, city, or region, or known place), where to broadcast this message to',
-	    'prod' => 'Subscription identifier',
+	    'prod' => 'Subscription identifier (or empty)',
             'type' => 'See comments'
         );
 		
