@@ -8,8 +8,8 @@
             'link' => 'Link to site or element (image, video, other) (or empty)', # Appropriate app will be started to view / follow this link
             'icon' => 'Link to icon, which is displayed with message (or empty)',
 	    'shot' => 'Link to image file, which will be displayed with message (or empty)',
-	    'from' => 'From identifier (or empty)',
             'site' => 'Address (street, city, or region, or known place), where to push this message',
+	    'prod' => 'Subscription identifier',
             'type' => 'See comments'
         );
 				
