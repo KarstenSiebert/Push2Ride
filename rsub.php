@@ -7,7 +7,7 @@
         );
 
 	# Comments
-	#
+	# 
 	# Closing a channel will make all subscriptions obsolete
 	#
 
