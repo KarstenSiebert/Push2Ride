@@ -3,7 +3,7 @@ Send push messages from your home devices, applications, monitoring systems or a
 
 Ride (https://play.google.com/store/apps/details?id=com.nedeos.ride) is a mobile app, capable to receive messages, which have been pushed from your home devices, servers, applications, monitoring systems or any other device.
 
-The provided code samples are based on PHP and allow you to send messages to your mobile device, which has Ride installed. Messages can be sent to individuals, to members of groups, and as broadcasts to selected regions.
+The provided code samples are based on PHP and allow you to send messages to your mobile device, which has Ride installed. Messages can be sent to individuals, to subscribers of channels, and as broadcasts to selected regions.
 
 Messages may include just text, text and individual icons, or text, icons and additional images. Depending on the provided content the Ride app will present the received message as text or text with image. Included links can be used to forward the user to other applications or sites. App users simply swipe right to follow a link, or swipe left to remove a message. 
 
