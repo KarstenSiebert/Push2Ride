@@ -20,6 +20,7 @@
 	# Users will still receive messages on that channel, even if they have left the 'site' region,
 	#
 	# as long as they do not unsubscribe from that channel (swipe left on channel inside the marketplace)
+	#
 
         $headers = array (
 		'Authorization: key=app-key',		# Sender's key inside the app
