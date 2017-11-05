@@ -18,7 +18,7 @@
 
         $ch = curl_init();
 
-        curl_setopt($ch, CURLOPT_URL, 'https://push.barubox.com/subscriptionRem');
+        curl_setopt($ch, CURLOPT_URL, 'https://push.barubox.com/channelRem');
 
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
