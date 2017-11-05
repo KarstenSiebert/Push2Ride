@@ -3,12 +3,12 @@
 	# Open a subscription channel
 		
         $data = array (
-            'head' => 'Title of message', 
-            'text' => 'Short description of message', 
-            'icon' => 'Link to icon, which is displayed with the subscription (or empty)',
-	    'shot' => 'Link to image file, which will be displayed with the subscription (or empty)',
+            'head' => 'Title of channel', 
+            'text' => 'Short description of channel', 
+            'icon' => 'Link to icon, which is displayed with this channel (or empty)',
+	    'shot' => 'Link to image file, which will be displayed with this channel (or empty)',
 	    'prod' => 'Unique subscription identifier',
-            'site' => 'Address (street, city, or region, or known place), where to publish the subscription'
+            'site' => 'Address (street, city, or region, or known place), where to auto-publish this channel'
         );
 
 	# Comments
