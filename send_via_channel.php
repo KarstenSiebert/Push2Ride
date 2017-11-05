@@ -18,7 +18,7 @@
 
         $ch = curl_init();
 
-        curl_setopt($ch, CURLOPT_URL, 'https://push.barubox.com/messagesSubs');
+        curl_setopt($ch, CURLOPT_URL, 'https://push.barubox.com/channelSend');
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
