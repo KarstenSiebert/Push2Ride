@@ -29,7 +29,7 @@
 
         $ch = curl_init();
 
-        curl_setopt($ch, CURLOPT_URL, 'https://push.barubox.com/subscriptionAdd');
+        curl_setopt($ch, CURLOPT_URL, 'https://push.barubox.com/channelAdd');
 
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
